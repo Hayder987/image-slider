@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    border:none;
+}
+.section{
+    background-color: rgb(88, 229, 248);
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:700px;
+    /* height:650px; */
+    background-color: rgb(10, 1, 17);
+    
+}
+.card{
+   width:400px;
+   height:550px;
+   background-color: rgb(10, 1, 17);;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.card img{
+    width:100%;
+    height:80%;
+    border-radius: 10px;
+}
+.heading{
+    padding:.6rem 2rem;
+    font-size: 2rem;
+    color: rgb(247, 127, 53);
+}
+.h3{
+    margin-top:1rem;
+    font-size: 25px;
+    color:rgb(104, 193, 8);
+    
+}
+.p1{
+    color:rgb(104, 193, 8);
+    margin-top:.6rem;
+    font-size: 20px;
+}
+.button{
+    margin-top: .5rem;
+    margin-bottom: 2.5rem;
+    gap:2rem;
+}
+.btn{
+    font-size: 25px;
+    padding:.3rem 0.6rem;
+    border-radius: 5px;
+    background-color: rgb(8, 16, 246);
+    color: rgb(246, 73, 73);
+   
+}
+.btn:hover{
+    background-color: rgb(208, 94, 24);
+    color:white;
+}
+.prevBtn{
+    margin:0 4rem;
+}
+.price{
+    color:azure;
+
+}
+.rating{
+    color:rgb(253, 159, 122);
+}
